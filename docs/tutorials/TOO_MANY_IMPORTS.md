@@ -55,7 +55,7 @@ You can follow along in `babel-plugin-transform-imports`'s README if your setup 
 <br><br>
 ###### _.babelrc or variant_
 
-Wherever your babel configuration lives (`.babelrc`, etc.), add to your plugins, `transform-imports` and add `async-af` to the list of libraries to transform as follows:
+Wherever your babel configuration lives (`.babelrc`, `babel.config.js`, etc.), add `transform-imports` to your plugins and `async-af` to the list of libraries to transform as follows:
 
 ```json
 {
