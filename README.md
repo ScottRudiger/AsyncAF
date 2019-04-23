@@ -134,13 +134,13 @@ right?
 >Using the cdn scripts as an example:
 >
 ><pre class=prettyprint>
-><code><code class=language-html>&lt;script type="module" src="https&#58;//unpkg.com/async-af/esm/index.js">&lt;/script></code>
+><code><code class=language-html>&lt;script type="module" src="https&#58;//unpkg.com/async-af/esm/index.mjs">&lt;/script></code>
 ><code class=language-html>&lt;script nomodule src="https&#58;//unpkg.com/async-af/legacy/index.js">&lt;/script></code></code></pre>
 >
 >or minimized for production:
 >
 ><pre class=prettyprint>
-><code><code class=language-html>&lt;script type="module" src="https&#58;//unpkg.com/async-af/esm/min.js">&lt;/script></code>
+><code><code class=language-html>&lt;script type="module" src="https&#58;//unpkg.com/async-af/esm/min.mjs">&lt;/script></code>
 ><code class=language-html>&lt;script nomodule src="https&#58;//unpkg.com/async-af/legacy/min.js">&lt;/script></code></code></pre>
 
 >The script with <code class="language-html prettyprint">&lt;script type="module"></code> will load in any browser capable of loading es modules, while the script with <code class="language-html prettyprint">&lt;script nomodule></code> will act as a fallback for legacy browsers.

@@ -36,7 +36,7 @@ const minify = (min, memberName) => (min ? uglify({
 const getConfig = min => packages.map(([{name: memberName}, path, pkgName]) => ({
   input: `${path}.js`,
   output: {
-    file: `dist/${pkgName}/esm/${min ? 'min' : 'index'}.js`,
+    file: `dist/${pkgName}/esm/${min ? 'min' : 'index'}.mjs`,
     format: 'es',
     sourcemap: true,
     banner: `/*!
