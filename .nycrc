@@ -1,5 +1,4 @@
 {
-  "description": "istanbul/nyc configuration",
   "check-coverage": true,
   "lines": 100,
   "statements": 100,
@@ -9,7 +8,7 @@
     "text",
     "lcov"
   ],
-  "cache": true,
+  "cache": false,
   "include": [
     "./lib**"
   ],

@@ -13,7 +13,7 @@ cover:
 	npm run build\:dev -- --env.cover
 	echo "\n\033[0;36mrunning tests & creating coverage report... 🤔\n"
 	echo "\n\033[0;36monce the tests are done, open \033[4;36mfile://"$(CURDIR)"/coverage/lcov-report/index.html\033[0;36m to view generated report in the browser\n\033[0;33m\nor run \033[0;31m'$$ \033[0mnpm run cover:open\033[0;31m'\033[0m\n"
-	nyc --check-coverage -- npm run test:base
+	nyc npm run test:base
 
 lint:
 	echo "\n\033[0;36meslint's a linting...\033[0m 🤨"
